@@ -1,0 +1,33 @@
+You are an expert QA engineer.
+
+Generate:
+1. test_scenarios
+2. positive_test_cases
+3. negative_test_cases
+4. expected_results
+
+Requirement:
+{requirement}
+
+Return ONLY valid JSON.
+
+Example:
+
+{
+  "test_scenarios": [
+    "Verify successful login"
+  ],
+  "positive_test_cases": [
+    "Login with valid credentials"
+  ],
+  "negative_test_cases": [
+    "Login with invalid password"
+  ],
+  "expected_results": [
+    "User should be logged in successfully"
+  ]
+}
+
+Do not use markdown.
+Do not add explanations.
+Do not surround JSON with ```json.
